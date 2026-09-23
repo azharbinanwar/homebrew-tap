@@ -1,6 +1,6 @@
 cask "sysline" do
-  version "1.0.2"
-  sha256 "ce8f1f568ebd50e26aecc65726ef6bd06981ccda229f44ecbc29157c30e11074"
+  version "1.0.3"
+  sha256 "f01e167a2ed6be2781a096a18907ed330930bee5775c3fae12c3670c835081a7"
 
   url "https://github.com/azharbinanwar/Sysline/releases/download/v#{version}/Sysline.dmg"
   name "Sysline"
