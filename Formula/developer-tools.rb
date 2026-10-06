@@ -1,9 +1,9 @@
 class DeveloperTools < Formula
   desc "Hub for ship-apk and ship-site: run, install, update or remove them from one menu"
   homepage "https://github.com/azharbinanwar/developer-tools"
-  url "https://github.com/azharbinanwar/developer-tools/releases/download/v1.0.1/developer-tools"
-  sha256 "76b37b2766e8a22d08d93552aca367db2e24b93939529a4abf0ddff57e88e9a0"
-  version "1.0.1"
+  url "https://github.com/azharbinanwar/developer-tools/releases/download/v1.0.2/developer-tools"
+  sha256 "d402301260423a9a1990464498f5a2e080abc2561d692215319c70e2eb33a22d"
+  version "1.0.2"
   license "MIT"
 
   depends_on "azharbinanwar/tap/ship-apk"
@@ -14,6 +14,6 @@ class DeveloperTools < Formula
   end
 
   test do
-    assert_match "developer-tools 1.0.1", shell_output("#{bin}/developer-tools --version")
+    assert_match "developer-tools 1.0.2", shell_output("#{bin}/developer-tools --version")
   end
 end
