@@ -1,9 +1,9 @@
 class ShipSite < Formula
   desc "Build a Vite site, publish dist/ to Vercel, copy the link"
   homepage "https://github.com/azharbinanwar/developer-tools"
-  url "https://github.com/azharbinanwar/developer-tools/releases/download/v1.0.0/ship-site"
-  sha256 "53a01320552d539148a05fe77b22632ef8966e39a49fdae989c5a4ae465c4f54"
-  version "1.0.0"
+  url "https://github.com/azharbinanwar/developer-tools/releases/download/v1.0.1/ship-site"
+  sha256 "b3d6736a381de1fae71e304e52de9fd43f28c3323ef6ffe78c9da8204e7d9b75"
+  version "1.0.1"
   license "MIT"
 
   def install
@@ -11,6 +11,6 @@ class ShipSite < Formula
   end
 
   test do
-    assert_match "ship-site 1.0.0", shell_output("#{bin}/ship-site --version")
+    assert_match "ship-site 1.0.1", shell_output("#{bin}/ship-site --version")
   end
 end
