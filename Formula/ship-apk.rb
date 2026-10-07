@@ -1,9 +1,9 @@
 class ShipApk < Formula
   desc "Build a Flutter APK, upload it to appho.st, mail the link"
   homepage "https://github.com/azharbinanwar/developer-tools"
-  url "https://github.com/azharbinanwar/developer-tools/releases/download/v1.0.3/ship-apk"
-  sha256 "6cee3ede8c98827298c0bc3f3b626f3cb960ac1ed37668317bf0e0b57929a4af"
-  version "1.0.3"
+  url "https://github.com/azharbinanwar/developer-tools/releases/download/v1.0.4/ship-apk"
+  sha256 "0672fcee4424eab5994b17644f840a51845998e989c93367ff68d105afbe121c"
+  version "1.0.4"
   license "MIT"
 
   def install
@@ -11,6 +11,6 @@ class ShipApk < Formula
   end
 
   test do
-    assert_match "ship-apk 1.0.3", shell_output("#{bin}/ship-apk --version")
+    assert_match "ship-apk 1.0.4", shell_output("#{bin}/ship-apk --version")
   end
 end
